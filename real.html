@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./icon/icon.css">
+  <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <title>Send Real Alert</title>
+</head>
+<body>
+<div class="ui container">
+  <div class="alert header">
+    <div class="ui container">
+      <div class="ui grid">
+        <div class="ui row centered">
+          <a class="ui button" href="#">Back to Main Menu</a>
+        </div>
+        <div class="ui row centered">
+          <h1 class="ui header" style="background-color: red">Emergency Alert <i class="exclamation triangle icon"></i></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="body-1">
+    <div class="ui container" style="background-color: white; padding: 10px">
+      <div class="ui form">
+        <h2 class="ui dividing header" style="background: none">Type of Alert</h2>
+        <div class="field">
+          <div class="ui grid">
+            <!-- Icon for Natural -->
+            <div class="centered row">
+              <h3>Natural Disaster</h3>
+            </div>
+            <div class="centered row">
+                <div class="two wide column" style="text-align: center">
+                  <button class="ui inverted red button"><i class="fire icon"></i></button>
+                  <label>Wild Fire</label>
+                </div>
+               <div class="two wide column" style="text-align: center">
+                  <button class="ui inverted red button"><i class="tornado ico"></i></button>
+                  <label>Tornado</label>
+                </div>
+                <div class="two wide column" style="text-align: center">
+                  <button class="ui inverted red button"><i class="tsunami ico"></i></button>
+                  <label>Tsunami</label>
+                </div>
+            </div>
+            <div class="ui divider"></div>
+            <div class="centered row">
+              <h3>Man made</h3>
+            </div>
+            <div class="centered row">
+              <div class="two wide column" style="text-align: center">
+                <button class="ui inverted red button"><i class="rocket icon"></i></button>
+                <label>Missile Alert</label>
+              </div>
+              <div class="two wide column" style="text-align: center">
+                <button class="ui inverted red button"><i class="exclamation triangle icon"></i></button>
+                <label>Amber Alert</label>
+              </div>
+              <div class="two wide column" style="text-align: center">
+                <button class="ui inverted red button"><i class="bomb icon"></i></button>
+                <label>Bomb Threat</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="ui dividing header" style="background: none">Alert Type</h2>
+        <div class="field">
+          <div class="ui grid">
+            <div class="row">
+              <div class="four wide column">
+                <div id='container' style='height:200px;width:200px;'>
+                  <table class="ui selectable celled table">
+                    <tr>
+                      <td>Warning Siren</td>
+                    </tr>
+                    <tr>
+                      <td>Text/SMS</td>
+                    </tr>
+                    <tr>
+                      <td>Radio</td>
+                    </tr>
+                    <tr>
+                      <td>Television</td>
+                    </tr>
+                  </table>
+                </div><!-- end table container -->
+              </div>
+              <div class="two wide column">
+                <div class="row">
+                  <button class="ui green inverted button"><i class="plus circle icon"></i></button>
+                </div>
+                <div class="row" style="margin-top: 50px">
+                  <button class="ui red inverted button"><i class="minus circle icon"></i></button>
+                </div>
+              </div>
+              <div class="four wide column">
+                <div id='container' style='height:200px;width:200px;'>
+                  <table class="ui table" style="height:170px">
+
+                  </table>
+                </div><!-- end table container -->
+              </div>
+            </div>
+          </div>
+        </div><!-- end field-->
+      </div><!-- end form-->
+    </div><!-- end body container -->
+  </div><!--end body-1-->
+  <div class="footer">
+
+  </div>
+</div>
+</body>
+</html>
